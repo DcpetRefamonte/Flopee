@@ -1,0 +1,116 @@
+body{
+    background-image: url(Flopee-Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    height: 100vh;
+}
+
+
+h1 {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: grey;
+  text-align: center;
+  font-size: 9em;                      
+  font-weight: bold;                  
+  font-style: italic;                  
+  text-transform: uppercase;           
+  letter-spacing: 2px;                
+  text-shadow: 2px 2px 4px #9D0758; 
+}
+
+
+.account {
+    height: 700px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25%;
+    left: 35%;
+    padding: 100px;
+}
+
+.login-input {
+    width: 100%;
+      
+}
+
+.login-input h2 {
+    font-size: 5em;
+    color: grey;
+    text-align: center;
+}
+
+
+.login-input input[type="password"], input[type="email"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+
+.login-input button {
+  width: 50%;
+  height: 60px;
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 60px;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.remember-forgot a {
+  text-decoration: none;
+  color: grey;
+  font-size: 30px;
+  display: flex;
+}
+
+.remember-forgot p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  font-size: 30px;
+  color: grey;
+  
+  
+}
+
+.remember-forgot p [type="checkbox"]{
+  transform: scale(2);
+  margin-right: 6px;
+  
+}
+
+.make-acc {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.make-acc p {
+  text-decoration: none;
+  color: rgb(78, 72, 72);
+  font-weight: bold;
+}

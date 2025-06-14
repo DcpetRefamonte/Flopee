@@ -1,0 +1,85 @@
+body{
+    background-image: url(Flopee-Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    height: 100vh;
+}
+
+h1 {
+  position: absolute;
+  top: 30;
+  left: 50%;
+  transform: translateX(-50%);
+  color: grey;
+  text-align: center;
+  font-size: 9em;                      
+  font-weight: bold;                  
+  font-style: italic;                  
+  text-transform: uppercase;           
+  letter-spacing: 2px;                
+  text-shadow: 2px 2px 4px #9D0758; 
+}
+
+
+.acc {
+  height: 700px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25%;
+    left: 35%;
+    padding: 100px;
+}
+
+.acc h2 {
+  font-size: 5em;
+  color: grey;
+  text-align: center;
+}
+
+.login-input {
+    width: 100%;
+      
+}
+
+.signup-input input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+.signup-input button {
+  width: 50%;
+  height: 60px;
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 60px;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.have-acc {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  
+}
+
+.have-acc p {
+  text-decoration: none;
+  color: rgb(78, 72, 72);
+  font-weight: bold;
+}
+
